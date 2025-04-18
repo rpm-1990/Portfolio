@@ -26,7 +26,7 @@
         </ul>
       </div>
       <div class="contacts-form" appFade="left" [delay]="200">
-        <h3>Your details</h3>
+        <h3>Your information</h3>
         <form [formGroup]="form" (ngSubmit)="onSubmit()">
           <input class="contacts-form-row" type="text" placeholder="Enter your name" formControlName="name">
           @if (isFieldValid('name')){
