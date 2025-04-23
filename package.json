@@ -1,11 +1,11 @@
 {
   "name": "developer-portfolio",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build-github": "ng build --base-href /developer-portfolio/",
+    "build-github": "ng build --base-href /Portfolio/ --configuration production",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
