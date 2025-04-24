@@ -12,7 +12,7 @@
           <ul class="nav-list">
             @for (item of navItems; track item) {
             <li class="nav-item">
-              <a routerLink="." [fragment]="item.link" [routerLinkActive]="item.activeClassName" routerLinkActive="active" [routerLinkActiveOptions]="{ matrixParams: 'exact', queryParams: 'exact', paths: 'exact', fragment: 'exact'}" [class]="item.className">
+              <a [href]="'#' + item.link" [class]="item.className">
                 {{ item.title }}
               </a>
             </li>
